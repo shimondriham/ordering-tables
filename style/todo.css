@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
 	margin:0;
 	/* padding:0; */
@@ -89,4 +90,97 @@ h1,label {
       box-shadow: rgb(29, 28, 28);
 	  color: white;
       z-index: 999;
+=======
+* {
+	margin:0;
+	/* padding:0; */
+	box-sizing:border-box;
+	font-family: 'Exo 2', sans-serif;
+  text-align: center;
+}
+
+body {
+	background-color:#1e1e1e;	
+    color: #fff;
+}
+
+h1,label {
+	font-size:3em;
+	/* background: -webkit-linear-gradient(180deg, white 50%, slategray 50%); */
+	/* -webkit-background-clip: text; */
+  /* -webkit-text-fill-color: transparent; */
+}
+.form__group {
+    /* position: relative; */
+    padding: 15px 0 0;
+    margin-top: 10px;
+    /* width: 50%; */
+  }
+  
+  .form__field {
+    font-family: inherit;
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid #9b9b9b;
+    outline: 0;
+    font-size: 1.3rem;
+    color: #fff;
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+  
+  }
+  
+  .form__label {
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: 1rem;
+    color: #9b9b9b;
+  }
+  
+  .form__field:focus {
+      top: 0;
+      display: block;
+      transition: 0.2s;
+      font-size: 1rem;
+      color: #11998e;
+      font-weight:700;    
+    }
+    
+.hero-btn{
+	
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    padding: 6px 17px;
+    font-size: 13px;
+	/* border: red solid 1px; */
+    background:rgba(63, 61, 61, 0.295);
+    border-radius: 32px;
+     }
+     .hero-btn:hover{
+      background: #d31717;
+      /* transition: 0.5s; */
+      box-shadow: rgb(29, 28, 28);
+	  color: white;
+      z-index: 999;
+    }
+.hero-btn2{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(25, 0, 255);
+    padding: 6px 17px;
+    font-size: 13px;
+	/* border: red solid 1px; */
+    background:rgba(63, 61, 61, 0.295);
+    border-radius: 32px;
+     }
+     .hero-btn2:hover{
+      background: rgb(25, 0, 255);
+      /* transition: 0.5s; */
+      box-shadow: rgb(29, 28, 28);
+	  color: white;
+      z-index: 999;
+>>>>>>> 2ced151cac70a1821e29260677538bd441fbd267
     }
