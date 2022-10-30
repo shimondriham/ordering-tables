@@ -22,7 +22,7 @@ class Task {
      <button class="badge hero-btn float-end ">X</button>
     <button class="badge hero-btn2 float-start button2">אשראי</button>
     <h5>${this.time}: שעה</h5>
-    <h5>שם:${this.name}</h5>
+    <h5>שם: ${this.name}</h5>
     <h5>${this.howMany}: מס' סועדים</h5>
     <h5>${this.tel}: טלפון</h5>
    
